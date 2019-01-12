@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../resources/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet"></link>
+    <script src="../resources/js/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../resources/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+</head>
+<style>
+    div.simpleSerachDiv{
+        background-color: #C40000;
+        width: 300px;
+        margin: 10px 20px 40px;
+        padding: 1px;
+        height: 40px;
+        display: block;
+    }
+    div.simpleSerachDiv input{
+        width: 225px;
+        border: 1px solid transparent;
+        height: 34px;
+        margin: 2px;
+        outline:none;
+    }
+    div.simpleSerachDiv button{
+        width: 60px;
+        border: 1px solid transparent;
+        background-color: #C40000;
+        color: white;
+        font-size: 14px;
+        /*  font-weight:bold */;
+    }
+    div.serachBelow{
+        margin-top: 3px;
+        margin-left: -20px;
+    }
+    div.serachBelow span{
+        color: #999;
+    }
+    div.serachBelow a{
+        padding: 0px 20px 0px 20px;
+        font-size: 14px;
+    }
+    img.simplelogo{
+        position: absolute;
+        left: 10px;
+        top: 50px;
+        width: 140px;
+    }
+    body{
+        font-size: 12px;
+        font-family: Arial;
+    }
+    a{
+        color:#999;
+    }
+    a:hover{
+        text-decoration:none;
+        color: #C40000;
+    }
+</style>
+<body>
+<div>
+    <a href="nowhere">
+        <img src="../img/site/simpleLogo.png" class="simplelogo" id="simplelogo">
+    </a>
+    <div class="simpleSerachDiv pull-right">
+        <div>
+        <input type="text" name="keyword" placeholder="杰士邦 杜蕾斯">
+        <button type="button" class="serachButton">搜天猫</button>
+        </div>
+        <div class="serachBelow">
+        <span>
+            <a href="nowhere">
+                冰箱
+            </a>
+                <span>|</span>
+        </span>
+            <span>
+            <a href="nowhere">
+                空调
+            </a>
+                <span>|</span>
+            <span>
+            <a href="nowhere">
+                女表
+            </a>
+                <span>|</span>
+            </span>
+            <span>
+            <a href="nowhere">
+                男表
+            </a>
+        </span>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+</body>
+</html>
